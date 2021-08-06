@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact us - Life Style</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PV1GOfQNHSoD2xbE+QkPxCAF1NEevEH3S10sibVc0QVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googlrapis.com/css2?family=poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+	
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+			<img src ="img/logo.png" width="125px">
+			</div>
+			<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="account.html">Account</a></li>
+			</ul>
+			</nav>
+			<a href="cart.html"><img src="img/cart.png" width="30px" height="30px"></a>
+			<img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+		</div>
+	</div>
+	<section class="contact">
+<div class="content">
+<h2> Contct Us </h2>
+</div>
+<div class="container">
+<div class="contactInfo">
+<div class="box">
+<div class="icon"><i class="fa fa-map-marker" ></i>
+</div>
+<h3>Address</h3>
+<p> &nbsp; jaynagar 4th block </p>
+</div>
+<div class="box">
+<div class="icon"><i class="fa fa-phone" ></i>
+</div>
+<h3>Phone</h3>
+</p>&nbsp; 080-475-6094 </p>
+</div>
+<div class="box">
+<div class="icon"><i class="fa fa-envelope" ></i>
+</div>
+<h3>Email</h3>
+</p>&nbsp; lifestyle@wt.ac.in </p>
+</div>
+</div>
+</div>
+<div class="contactform">
+<form>
+<h2>Send Message</h2>
+<div class="inputBox">
+<input type="text" name="" required="required">
+<span>Full Name</span>
+</div>
+<div class="inputBox">
+<input type="text" name="" required="required">
+<span>Email</span>
+</div>
+<div class="inputBox">
+<textarea required="required"></textarea>
+<span>Type your Message...</span>
+</div>
+<div class="inputBox">
+<input type="submit" name="" value="send">
+</div>
+</form>
+</div>
+</div>
+</section>
+	<!--------------- footer ------------->
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="footer-col-1">
+<h3>Download our App</h3>
+<p>Download App for Android and ios mobile phone.</p>
+<div class="app-logo">
+<img src="img/play-store.png">
+<img src="img/app-store.png">
+</div>
+</div>
+</div>
+<div class="footer-col-2">
+<img src="img/logo.png">
+<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+</div>
+<div class="footer-col-3">
+<h3>Useful Links</h3>
+<ul>
+<li>coupons</li>
+<li>Blog Post</li>
+<li>Return Policy</li>
+<li>Join Affiliate</li>
+</ul>
+</div>
+<div class="footer-col-4">
+<h3>Follow us</h3>
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+<li>Instagram</li>
+<li>YouTube</li>
+</ul>
+</div>
+</div>
+<hr>
+<p class="copyright"> web technology assignment </p>
+</div>
+
+<!------------ js for toggle menu ---------------->
+<script>
+var MenuItems = document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle(){
+if(MenuItems.style.maxHeight == "0px")
+{
+MenuItems.style.maxHeight = "200px";
+}
+else
+{
+MenuItems.style.maxHeight = "0px";
+}
+}
+</script>
+    </body>
+</html>
+	
